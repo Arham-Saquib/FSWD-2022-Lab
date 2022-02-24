@@ -1,0 +1,32 @@
+h1{
+    font-size: 20px;
+    font-style:oblique;
+    text-align: center;
+    text-shadow: 30px;
+    color: rgb(10, 10, 10);
+    
+}
+li {
+    float:left;
+}
+li a {
+    display:flex;
+    justify-content:center;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration:underline;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#04AA6D;
+}
+li a:hover{
+    background-color: rgb(19, 208, 241);
+}
+.active {
+    background-color: #04AA6D;
+}
